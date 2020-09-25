@@ -7,3 +7,13 @@ This repo will document the procedure used in the analysis of the proteomic and 
 - Variant sequence extraction from the RNAseq data
 - MaxQuant analysis using the sample specific database
 - Differential analysis
+
+# Genomics analysis pipeline
+The general steps for me are:
+- trim reads
+- STAR alignment to the reference genome
+- mark duplicates
+- use HaplotypeCaller to generate gvcf
+- CombineGVCFs
+- GenotypeGVCFs on the combined gvcf
+- filter your vcf however you want
