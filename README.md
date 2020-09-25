@@ -6,7 +6,7 @@ This repo will document the procedure used in the analysis of the proteomic and 
 - MaxQuant analysis using the sample specific database
 - Differential analysis
 
-# Genomics analysis pipeline; ![GATK pipeline](https://gatk.broadinstitute.org/hc/en-us/articles/360035531192?id=4067)
+# Genomics analysis pipeline; [GATK pipeline](https://gatk.broadinstitute.org/hc/en-us/articles/360035531192?id=4067)
 The general steps for me are:
 - trim reads; Quality control of the RNAseq data was done using FastQC and trime galore which used cutadapt as a wrapper was using it trimming of the adapter sequences.
 - STAR aligner was used to align the RNAseq raw files to the reference genome (hg19)
