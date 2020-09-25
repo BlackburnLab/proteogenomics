@@ -12,6 +12,7 @@ star_index=/scratch/oknjav001/transcriptomics/proteogenomics/splicify/data/genom
 STAR=/scratch/oknjav001/transcriptomics/proteogenomics/splicify/SPLICIFY/src/STAR
 # Run STAR (~10min)
 #Run LTB
+
 cd /scratch/oknjav001/transcriptomics/complete_batch/complete_challenge_Group_RNAseq/bal_first_batch/LTB/trimmedData
 
 gunzip *.gz
@@ -20,7 +21,7 @@ for infile in *.fq
 
 do
 
-${STAR} --genomeDir ${star_index} --readFilesIn ${infile}  --runThreadN 16 --outSAMtype BAM SortedByCoordinate --quantMode GeneCounts
+${STAR} --genomeDir ${star_index} --readFilesIn ${infile}  --runThreadN 16 --outSAMtype BAM SortedByCoordinate --quantMode GeneCounts --outFileNamePrefix $infile
 
 done
 
@@ -34,7 +35,7 @@ for infile in *.fq
 
 do
 
-${STAR} --genomeDir ${star_index} --readFilesIn ${infile}  --runThreadN 16 --outSAMtype BAM SortedByCoordinate --quantMode GeneCounts
+${STAR} --genomeDir ${star_index} --readFilesIn ${infile}  --runThreadN 16 --outSAMtype BAM SortedByCoordinate --quantMode GeneCounts --outFileNamePrefix $infile 
 
 done
 
@@ -47,7 +48,7 @@ for infile in *.fq
 
 do
 
-${STAR} --genomeDir ${star_index} --readFilesIn ${infile}  --runThreadN 16 --outSAMtype BAM SortedByCoordinate --quantMode GeneCounts
+${STAR} --genomeDir ${star_index} --readFilesIn ${infile}  --runThreadN 16 --outSAMtype BAM SortedByCoordinate --quantMode GeneCounts --outFileNamePrefix $infile 
 
 done
 
@@ -60,7 +61,7 @@ for infile in *.fq
 
 do
 
-${STAR} --genomeDir ${star_index} --readFilesIn ${infile}  --runThreadN 16 --outSAMtype BAM SortedByCoordinate --quantMode GeneCounts
+${STAR} --genomeDir ${star_index} --readFilesIn ${infile}  --runThreadN 16 --outSAMtype BAM SortedByCoordinate --quantMode GeneCounts --outFileNamePrefix $infile 
 
 done
 
