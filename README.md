@@ -10,7 +10,7 @@ The general steps for me are:
 - The VCF files were then filtered and used in the construction of a variant protein sequence database.
 
 ### Variant protein database construction from the vcf files
-- [x] use customprodbj
+- [x] use [customprodbj](https://github.com/wenbostar/Customprodbj)
 ### Proteomics analysis
 - MaxQuant analysis using the sample specific database
 - Differential analysis
