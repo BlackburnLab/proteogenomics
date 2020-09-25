@@ -13,4 +13,5 @@ The general steps for me are:
 - [x] use [customprodbj](https://github.com/wenbostar/Customprodbj)
 ### Proteomics analysis
 - MaxQuant analysis using the sample specific database
+- pathway analysis
 - Differential analysis
