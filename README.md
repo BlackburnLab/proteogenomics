@@ -9,6 +9,9 @@ The general steps for me are:
 - use HaplotypeCaller, within the GATK pipeline was used to generate vcf files. 
 - The VCF files were then filtered and used in the construction of a variant protein sequence database.
 
+### Variant annotation
+Variant annotation of each vcf file generated above was done using the ANNOVAR 
+
 ### Variant protein database construction from the vcf files
 - [x] use [customprodbj](https://github.com/wenbostar/Customprodbj)
 ### Proteomics analysis
