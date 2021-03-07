@@ -8,6 +8,8 @@ The general steps for me are:
 - [x] Base Quality Recalibration; 
 - [x] use HaplotypeCaller, within the GATK pipeline was used to generate vcf files. 
 - [x] The VCF files were then filtered and used in the construction of a variant protein sequence database.
+--------------
+- ![workflow image](https://user-images.githubusercontent.com/26459707/110240744-099aff80-7f56-11eb-950c-36cff925ffd6.png)
 
 ## Variant annotation
 Variant annotation for the vcf file generated above was done using the ANNOVAR  
