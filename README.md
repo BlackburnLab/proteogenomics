@@ -13,7 +13,7 @@ The general steps for me are:
 Variant annotation for the vcf file generated above was done using the ANNOVAR  
 
 ### Variant protein database construction from the vcf files
-- [x] Use ![customprodbj](https://github.com/wenbostar/Customprodbj)
+- [x] Use [customprodbj](https://github.com/wenbostar/Customprodbj)
 ### Proteomics analysis
 - MaxQuant analysis using the sample specific database
 - pathway analysis
