@@ -21,3 +21,6 @@ Variant annotation for the vcf file generated above was done using the ANNOVAR
 - pathway analysis
 - Differential analysis
 - Pathway analysis
+
+## Papers to be read
+- [x] [Integrated Multi-Omic Analysis of Mycobacterium tuberculosis H37Ra Redefines Virulence Attributes](https://www.frontiersin.org/articles/10.3389/fmicb.2018.01314/full)
