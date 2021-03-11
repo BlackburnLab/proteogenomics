@@ -21,7 +21,8 @@ Variant annotation for the vcf file generated above was done using the ANNOVAR
 - pathway analysis
 - Differential analysis
 - Pathway analysis
-
+## Results
+- The total number of transcripts with variants was 27924
 ## Papers to be read
 - [Integrated Multi-Omic Analysis of Mycobacterium tuberculosis H37Ra Redefines Virulence Attributes](https://www.frontiersin.org/articles/10.3389/fmicb.2018.01314/full)
 - [Proteome analysis of the Mycobacterium tuberculosis Beijing B0/W148 cluster ](https://www.nature.com/articles/srep28985)
