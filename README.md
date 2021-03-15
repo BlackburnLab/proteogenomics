@@ -7,6 +7,7 @@ The general steps for me are:
 - [x] SplitNCigarReads; Because RNA aligners have different conventions than DNA aligners, we need to reformat some of the alignments that span introns for HaplotypeCaller. This step splits reads with N in the cigar into multiple supplementary alignments and hard clips mismatching overhangs.
 - [x] Base Quality Recalibration; 
 - [x] use HaplotypeCaller, within the GATK pipeline was used to generate vcf files. 
+- [x] The Variant Effect Predictor was used to asses the effect of the variants that were identified from our data
 - [x] The VCF files were then filtered and used in the construction of a variant protein sequence database.
 --------------
 - ![workflow image](https://user-images.githubusercontent.com/26459707/110240744-099aff80-7f56-11eb-950c-36cff925ffd6.png)
