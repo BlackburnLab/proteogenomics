@@ -13,7 +13,8 @@ The general steps for me are:
 - ![workflow image](https://user-images.githubusercontent.com/26459707/110240744-099aff80-7f56-11eb-950c-36cff925ffd6.png)
 
 ## Variant annotation
-Variant annotation for the vcf file generated above was done using the [Variant Effect Predictor](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0974-4)  
+- [x] Variant annotation for the vcf file generated above was done using the [Variant Effect Predictor](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0974-4)
+- [x] Genome annotation was downloaded from:https://www.ensembl.org/info/data/ftp/index.html
 
 ### Variant protein database construction from the vcf files
 - [x] Use [pgdb](https://github.com/nf-core/pgdb)
